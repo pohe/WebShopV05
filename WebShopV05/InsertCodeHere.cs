@@ -24,7 +24,7 @@ namespace WebShopV05
             double dvdPrice = netPriceDVD * noOfDVDsInOrder;
             double gamesPrice = netPriceGame * noOfGamesInOrder;
 
-
+            //This is a test
             double totalPrice = 0.0; // This variable should contain the total price for the order
 
             totalPrice = ((booksPrice + dvdPrice + gamesPrice) * (netTax + 100) / 100 + shippingCost) *((100 + creditCardFee)/100);
